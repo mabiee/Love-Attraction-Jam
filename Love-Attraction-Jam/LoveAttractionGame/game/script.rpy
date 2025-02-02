@@ -1,33 +1,41 @@
-﻿# The script of the game goes in this file.
+﻿"""
+To do: 
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+- figure out Git integration
+- 
 
-define e = Character("Eileen")
+"""
 
+# Character definitions
+
+# human
+define hum = Character("Human")
+# human images:
+image human neutral = "human neutral.png"
+image human surprised = "human surprised.png"
+
+# ibex
+define ibex = Character("Ibex")
+# ibex images:
+image ibex neutral = "ibex neutral.png"
+
+#capy
+define capy = Character("Capybara")
+#capy images:
+image capy neutral = "capy neutral.png"
+image capy curious = "capy curious.png"
+
+# Scene definitions
+image bg trainstation present = "bg trainstation present.png"
+image bg trainstation past = "bg trainstation past.png"
+image bg clothespizza = "bg clothespizza.png"
+image bg clothes-pizza = "bg clothes-pizza.png"
+image bg arcade = "bg arcade.png"
 
 # The game starts here.
-
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    jump intro1
 
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
 
     return
