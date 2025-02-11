@@ -6,12 +6,17 @@ To do:
 
 """
 
+# General definitions
+
+ 
+
 # Character definitions
 
 # human
 define hum = Character("Human")
 # human images:
 image human neutral = "human neutral.png"
+image human sad = "human sad.png"
 image human surprised = "human surprised.png"
 image human eyesclosed = "human eyesclosed.png"
 image human confused = "human confused.png"
@@ -30,6 +35,9 @@ image capy neutral = "capy neutral.png"
 image capy happy = "capy happy.png"
 image capy laugh = "capy laugh.png"
 image capy sad = "capy sad.png"
+image capy angry = "capy angry.png"
+image capy confused = "capy confused.png"
+image capy surpirsed = "capy surpirsed.png"
 
 # Scene definitions
 image bg trainstation present = "bg trainstation present.png"

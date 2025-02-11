@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/intro1.rpy", line 112: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    menu:
-    ^
+File "game/intro1.rpy", line 41: expected statement.
+    swcapy
+          ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sun Feb  9 01:44:30 2025
+Tue Feb 11 22:08:25 2025
